@@ -1,0 +1,27 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(230, 230, 230);
+}
+
+/* home page */
+.home{
+	background-image: url("backround_pic.jpg");
+	background-position: 95% 5%;
+	/*background-size: 1300px 800px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+/* about section */
+.body_about {
+	font-family: Helvetica;
+}
+
