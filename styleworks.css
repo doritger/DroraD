@@ -1,3 +1,51 @@
 /* works page */
-/* change just for a git test*/
-/* resolve conflict - choose local*/
+
+* {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	 vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+.container 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 30px 30px;
+	gap: 10px;
+}
+
+ .image_gallery div {
+ 	display: flex;
+	width: 30%;
+}
+
+img {
+	transition: 0.7s;
+	object-fit: contain;
+	margin-top: 20px;
+}
+
+figcaption {
+	font-size: 20px;
+	font-family: Poppins;
+	align-self: center;	
+}
+.twothousands {
+	padding: 20px;
+}
+
+#fig_twothousands {
+	margin-top: -10px;
+}
+
+#img_eighties:hover, #current:hover, #twothousands:hover,  #img_nineties:hover {
+	margin: 15px;
+}

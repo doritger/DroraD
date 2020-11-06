@@ -42,7 +42,7 @@
 }
 
 .link:hover {
-  color: hotpink;
+  color: rgb(243, 60, 183);
 }
 
 .link {
@@ -64,6 +64,10 @@
      min-width: 340px;
   }
 
+  .works {
+    margin-left: 120px;
+  }
+
   .push {
   margin-right: 0;
 }
@@ -78,6 +82,11 @@
    background-color: rgb(255, 255, 255, 0.6);
    border-radius: 5px;
    padding: 5px;
+ }
+
+ .move 
+ {
+    transition: 0.5s;
  }
 
  .move:hover {
